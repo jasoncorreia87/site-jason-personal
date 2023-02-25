@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,12 +12,13 @@ body{
 }
 
 div.logo{
-    width: 100vw;
+    width: 100%;
     padding: 20px;
     background: url(../imagens/marca300px.png) no-repeat white center;
     height: 180px;
     color: white;
     margin: auto;
+    margin-left: -20px;
 }
 span#burguer{
     color: white;
@@ -66,14 +69,33 @@ menu > ul > li >a:hover{
 
 main > h1{
     color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+div#halter{
+    background: url(../imagens/fundomainpequeno.png) no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 4px 10px rgba(255, 255, 255, 0.29);
+    
 }
 
-main > p{
+div#halter > p{
+    
     width: 70vw;
-    background-color: white;
+    color: white;
     margin: auto;
     padding: 20px;
     text-indent: 20px;
-    text-align: justify;
-    border-radius: 20px 0px;
+    text-align: right;
+    padding-top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 30px;
+    text-shadow: 5px 4px 5px black;
+    
+    
 }
