@@ -29,10 +29,10 @@
             <p>Olá! Meu nome é <strong>Jason Correia</strong> <br> e sou um personal trainer <br> dedicado a ajudar as pessoas <br> a alcançarem seus objetivos<br> de saúde e fitness.<br> Com anos de experiência<br> e formação especializada em exercício físico,<br> desenvolvi um método de treinamento personalizado que é adaptado às necessidades e metas individuais de cada cliente. Seja você um atleta experiente ou um iniciante no mundo do fitness, estou aqui para ajudá-lo a alcançar o seu melhor desempenho físico e mental. Juntos, podemos criar um plano de treinamento abrangente que aborde seus objetivos específicos, incorporando exercícios de força, condicionamento cardiovascular e flexibilidade. Estou animado para trabalhar com você e ajudá-lo a alcançar seus objetivos!</p>
         </div>
 
-        <article>
+        <article id="exercicio">
             <div id="mulhertreiner"></div>
-            <h2>Benefícios do Exercício</h2>
-            <div><ol>
+            <h2 id="tag" onclick="clickTag()">Benefícios do Exercício</h2>
+            <div id="beneficios"><ol>
                 <li>Melhora da saúde cardiovascular</li>
                 <li>Aumento da força e da resistência muscular</li>
                 <li>Melhora da saúde mental</li>
@@ -42,6 +42,24 @@
                 <li>Prevenção de doenças crônicas</li>
                 <legend>entre outros vários Benefícios</legend>
             </ol></div>
+        </article>
+
+        <article id="personal">
+            <div id="fotopersonal"></div>
+            <h2 id="ajuda" onclick="clickAjuda()">Como personal pode te ajudar!?</h2>
+            <div id="beneficios02">
+                <ol>
+                    <li>Customização</li>
+                    <p id="parabene">Os treinos são pensados para o seu corpo e os seus objetivos, de forma que pode ser adaptado ou adequado às mais variadas necessidades físicas e rotinas.</p><br>
+                    <li>Orientação Certeira</li>
+                    <p id="parabene">Muitos ferimentos e lesões acontecem porque os exercícios não são realizados da maneira correta na academia. O acompanhamento de um personal garante não só mais segurança no treino – uma vez que você executa cada exercício de forma orientada - como também os resultados daquela prática.</p><br>
+                    <li>Flexibilidade</li>
+                    <p id="parabene">É comum as pessoas comentarem que não tem tempo para fazer uma aula fixa ou até ir à academia sempre no mesmo horário. Não tem problema: com um personal, você pode adaptar os treinos à sua rotina, às vezes até intercalando aulas presenciais com videochamadas, se for necessário (pense na rotina de alguém que viaja muito a trabalho).</p><br>
+                    <li>Vida mais saudável a longo prazo</li>
+                    <p id="parabene">É claro que você pode pensar em objetivos de curto prazo com um personal (por exemplo, preparar-se para um grande evento esportivo ou uma maratona), mas outro ponto positivo desse acompanhamento é a construção de hábitos saudáveis de longo prazo, afinal, ter alguém para incentivar e manter o seu foco é bem melhor do que fazer isso sozinho – o que significa que essas práticas físicas também vão se tornar mais duradouras!</p>
+                </ol>
+            </div>
+
         </article>
 
     </main>
@@ -56,8 +74,18 @@
         } else { itens.style.display = 'block'}
     
     }
-            
+         
+    function clickTag() {
+        if (beneficios.style.display == 'block')
+           {beneficios.style.display = 'none'
+        } else { beneficios.style.display = 'block'}
+    }
 
+    function clickAjuda() {
+        if (beneficios02.style.display == 'block')
+           {beneficios02.style.display = 'none'
+        } else { beneficios02.style.display = 'block'} 
+    }
     
     </script>
 </body>
