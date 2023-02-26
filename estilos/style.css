@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Color Theme Swatches in Hex */
@@ -18,17 +19,54 @@
 
 body{
     background-color: black;
+
 }
 
-div.logo{
-    width: 100%;
-    padding: 20px;
-    background: url(../imagens/marca300px.png) no-repeat black center;
-    height: 180px;
-    color: white;
-    margin: auto;
-    margin-left: -20px;
+.corpo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
+
+.conteudo{
+  height: 180px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+span {
+    font-size: x-large;
+  }
+  
+  img {
+    
+    width: 100%;
+    
+  }
+  
+  .swiper {
+    height: 236px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .swiper-button-next{
+    color: #161616;
+    
+  }
+  
+  
+
 span#burguer{
     color: white;
     display: block;
