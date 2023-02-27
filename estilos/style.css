@@ -22,47 +22,48 @@ body{
 
 }
 
-.corpo{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.conteudo{
-  height: 180px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  margin-bottom: 28px;
-}
-
-span {
-    font-size: x-large;
-  }
-  
-  img {
-    
+.slider-container {
+    position: relative;
     width: 100%;
-    
+    height: 180px;
+    overflow: hidden;
   }
   
-  .swiper {
-    height: 236px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
+  .slider-wrapper {
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    left: 0;
+    top: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
   }
-
-  .swiper-button-next{
-    color: #161616;
-    
+  
+  .slider-wrapper img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .slider-control-prev {
+    left: 0;
+  }
+  
+  .slider-control-next {
+    right: 0;
   }
   
   

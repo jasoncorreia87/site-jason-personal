@@ -17,15 +17,37 @@ function clickAjuda() {
  } else { beneficios02.style.display = 'block'} 
 }
 
-var swiper = new Swiper(".swiper", {
-    cssMode: true,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    keyboard: true,
-  });
+var slideIndex = 0;
+showSlides(slideIndex);
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("slider-wrapper")[0].getElementsByTagName("img");
+  var dots = document.getElementsByClassName("slider-dot");
+
+  if (n >= slides.length) {
+    slideIndex = 0;
+  } else if (n < 0) {
+    slideIndex = slides.length - 1;
+  } else {
+    slideIndex = n;
+  }
+
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex].style.display = "block";
+}
+
+var prevBtn = document.getElementsByClassName("slider-control-prev")[0];
+var nextBtn = document.getElementsByClassName("slider-control-next")[0];
+
+prevBtn.addEventListener("click", function() {
+  showSlides(slideIndex - 1);
+});
+
+nextBtn.addEventListener("click", function() {
+  showSlides(slideIndex + 1);
+});
+
+
