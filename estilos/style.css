@@ -165,7 +165,7 @@ article > h2#tag:hover {
 }
 
 div#fotopersonal{
-    background: url(../imagens/pexels-cliff-booth-4058411.jpg) no-repeat center;
+    background: url(../imagens/pexels-cliff-booth-4058411.jpg) no-repeat center bottom;
     background-size: contain;
     width: 100%;
     height: 330px;
@@ -198,7 +198,7 @@ div#textoav{
 
 
 div#avfisica{
-    background: url(../imagens/avaliacaofisica.jpg) no-repeat center;
+    background: url(../imagens/avaliacaofisica.jpg) no-repeat center bottom;
     background-size: contain;
     width: 100%;
     height: 330px;
