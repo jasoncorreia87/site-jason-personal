@@ -17,6 +17,14 @@ function clickAjuda() {
  } else { beneficios02.style.display = 'block'} 
 }
 
+function clickFisica() {
+    if (textoav.style.display == 'block')
+       {textoav.style.display = 'none'
+    } else { textoav.style.display = 'block'} 
+   }
+
+
+
 var slideIndex = 0;
 showSlides(slideIndex);
 
