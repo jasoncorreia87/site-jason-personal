@@ -105,8 +105,8 @@ menu > ul > li > a{
     text-align: center;
     color: white;
     padding: 10px;
-    background-color: rgb(78, 78, 78);
-    border: 2px solid rgba(128, 128, 128, 0.387);
+    background-color: #6D6059;
+    border: 1px solid rgba(255, 255, 255, 0.139);
     
     
 }
