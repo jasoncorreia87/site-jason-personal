@@ -178,6 +178,7 @@ div#fotopersonal{
 p#parabene{
     font-size: 0.9em;
     color: #B1B5B8;
+    text-align: justify;
 }
 
 article > h2#ajuda:hover {
@@ -212,9 +213,10 @@ div#textoav>p{
     font-size: 0.9em;
     color: #B1B5B8;
     font-family: 'Fjalla One', sans-serif;
-    line-height: 30px;
+    line-height: 35px;
     padding: 40px 40px 0px 40px;
     text-indent: 20px;
+    text-align: justify;
     
 }
 
