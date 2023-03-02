@@ -19,6 +19,8 @@
 
 body{
     background-color: black;
+    font-family: 'Fjalla One', sans-serif;
+
 
 }
 
@@ -224,7 +226,92 @@ article > h2#avfisicah2:hover {
 
 h2#imc{
     margin-top: 60px;
+    font-size: 2em;
 }
 
+h2#imcresultado{
+    color: #B1B5B8;
+    margin-top: 40px;
+    font-size: 2em;
+}
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
+  /* efeito botao clique aqui*/
+  div#botao{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    
+    background-color: darkorange; /* Cor de fundo do botão */
+    border: none;
+    margin-top: 50px;
+    color: white; /* Cor do texto do botão */
+    padding: 15px 32px; /* Espaçamento interno do botão */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    animation: bounce 1s infinite;
+  }
+  a#click{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
 
 
