@@ -25,7 +25,7 @@
             color: white;
             font-size: 1.5em;
             text-align: center;
-            padding-top: 40px;
+            padding: 40px;
 
         }
 
@@ -44,7 +44,7 @@
             color: white;
             font-size: 1.3em;
             text-align: center;
-            padding: 40px;
+            padding: 40px 40px 10px 40px;
             line-height: 30px;
         }
 
@@ -76,11 +76,64 @@
             padding-right: 40px;
             text-align: center;
             line-height: 30px;
-            margin-top: 10px;
+            margin-top: 5px;
             
 
         }
 
+        div#mfit03{
+           background: url(imagens/consultoriamulherpuxada.jpg)no-repeat ;
+           background-size: contain;
+           background-position: center;
+           width: 85%;
+           height: 230px;
+           margin: auto;
+           margin-top: 80px;
+        }
+
+        p#final{
+            color: darkorange;;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 2em;
+            padding: 30px;
+            text-align: center;
+            
+            margin-top: 5px;
+
+        }
+
+        div#botao{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    
+    background-color: darkorange; /* Cor de fundo do botão */
+    border: none;
+    margin-top: 50px;
+    color: white; /* Cor do texto do botão */
+    padding: 15px 32px; /* Espaçamento interno do botão */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    animation: bounce 1s infinite;
+  }
+  a#click{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
 
 
 
@@ -103,6 +156,19 @@
             <h2>Treinos planejados de acordo com <br> o SEU objetivo</h2>
 
             <p id="one01">Você receberá um treino exclusivo voltado ao seu objetivo indicado na anamnese, de acordo com fatores individuais como: limite de carga, amplitude de exercício, melhora de mobilidade etc</p>
+
+            <div id="mfit03"></div>
+
+            <h2>Um planejamento de treino <br> exclusivo por mês!</h2>
+
+            <p id="one01">Para acelerar seus resultados, o treino será trocado todos os meses, através dp app MFIT PERSONAL</p>
+
+
+            <p id="final">E MUITO MAIS!! <br>
+                tem curiosidade ou dúvidas sobre o serviço?!
+            </p>
+
+            <div id="botao"><button class="button"><a id="click" href="consultoria.html">Clique aqui!</a></button></div>
 
 
             
