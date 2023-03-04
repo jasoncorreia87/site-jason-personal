@@ -315,5 +315,31 @@ h2#imcresultado{
     100% { transform: translateY(0); }
   }
   
+  .eu{
+    font-family: 'Fjalla One', sans-serif;
+        color: white;
+        background-color: #667145;
+        padding: 30px;
+        text-align: center;
+  }
+  .marca{
+    background: url(../imagens/fotojason.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 6px 5px 7px rgb(255 255 255 / 21%);
+  }
+
+  .sobre{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 30px;
+  }
 
 
