@@ -107,7 +107,7 @@ menu > ul > li > a{
     text-align: center;
     color: white;
     padding: 10px;
-    background-color: #6D6059;
+    background-color: #161616;
     border: 1px solid rgba(255, 255, 255, 0.139);
     
     
@@ -119,8 +119,9 @@ menu > ul > li >a:hover{
 }
 
 
-main > h1{
-    color: white;
+.boratreinar{
+    color:darkorange;
+    font-size: 3.5em;
     text-align: center;
     padding: 20px;
     font-family: 'Fjalla One', sans-serif;
@@ -129,7 +130,7 @@ main > h1{
 
 main>h2{
     font-family: 'Fjalla One', sans-serif ;
-    color: #667145;
+    color: white;
     margin: auto;
     text-align: center;
     line-height: 40px;
@@ -321,6 +322,7 @@ h2#imcresultado{
         background-color: #667145;
         padding: 30px;
         text-align: center;
+        margin-top: 40px;
   }
   .eufoto{
     background: url(../imagens/fotojason.jpeg) no-repeat;
@@ -331,6 +333,7 @@ h2#imcresultado{
     border-radius: 10px;
     margin: auto;
     box-shadow: 6px 5px 7px rgb(255 255 255 / 21%);
+    margin-top: 40px;
   }
 
   .sobre{
