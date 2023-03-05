@@ -98,6 +98,27 @@
           <input type="submit" value="Enviar">
         </form>
     </div>
+    <script>
+        const form = document.querySelector('form');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault(); // Previne o envio padrão do formulário
+
+  // Acesse os valores do formulário usando os IDs dos campos
+  const nome = document.getElementById('nome').value;
+  const dataNascimento = document.getElementById('data-nascimento').value;
+  const sexo = document.querySelector('input[name="sexo"]:checked').value;
+  const profissao = document.getElementById('profissao').value;
+  const sedentario = document.querySelector('input[name="sedentario"]:checked').value;
+  const objetivoTreino = document.getElementById('objetivo-treino').value;
+  const email = document.getElementById('email').value;
+  const celular = document.getElementById('celular').value;
+
+  // Faça o que quiser com os valores do formulário aqui
+  console.log(nome, dataNascimento, sexo, profissao, sedentario, objetivoTreino, email, celular);
+});
+
+    </script>
     
 </body>
 </html>
