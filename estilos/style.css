@@ -24,7 +24,37 @@ body{
 
 }
 
+header.fixo{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  box-shadow: 3px -2px 7px 0px rgba(0, 0, 0, 0.593)   inset;
+  
+  
+}
+
+.marcafixo{
+  background-color: #3e8e41;
+background: url(../imagens/marca300px.png) no-repeat;
+background-size: contain;
+background-position: right center;
+width: 100%px;
+height: 80px;
+margin: 10px 10px 0 0 ;
+
+
+}
+.margintop{
+  top: 100px;
+  position: relative;
+}
+
+
 .slider-container {
+    
     position: relative;
     width: 100%;
     height: 180px;
@@ -71,6 +101,8 @@ body{
   
 
 span#burguer{
+  top: 100px;
+  position: relative;
     color: white;
     display: block;
     padding: 10px;
@@ -120,6 +152,8 @@ menu > ul > li >a:hover{
 
 
 .boratreinar{
+  top: 70px;
+  position: relative;
     color:darkorange;
     font-size: 3.5em;
     text-align: center;
@@ -129,6 +163,8 @@ menu > ul > li >a:hover{
 }
 
 .boratreinar2{
+  position: relative;
+  top: 30px;
   color:darkorange;
   font-size: 1.5em;
   text-align: center;
@@ -138,6 +174,8 @@ menu > ul > li >a:hover{
 }
 
 main>h2{
+  position: relative;
+  top: 30px;
     font-family: 'Fjalla One', sans-serif ;
     color: white;
     margin: auto;
